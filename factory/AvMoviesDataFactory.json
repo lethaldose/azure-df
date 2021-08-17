@@ -1,0 +1,9 @@
+{
+	"name": "AvMoviesDataFactory",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74271d29-a7fc-443a-b2e3-06a3544f0f98",
+		"tenantId": "8988fd8c-220b-4904-bbd6-f1e33880c2fa"
+	}
+}
