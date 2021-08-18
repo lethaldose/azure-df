@@ -11,9 +11,17 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage2'"
 		},
+		"datalake_blog_ls_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'datalake_blog_ls'"
+		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://avstoragedemo.dfs.core.windows.net"
+		},
+		"github_raw_ls_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
 		},
 		"containerUri": {
 			"type": "string",
@@ -45,8 +53,14 @@
 					"AzureDataLakeStorage2_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage2_accountKey')]"
 					},
+					"datalake_blog_ls_connectionString": {
+						"value": "[parameters('datalake_blog_ls_connectionString')]"
+					},
 					"AzureDataLakeStorage2_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage2_properties_typeProperties_url')]"
+					},
+					"github_raw_ls_properties_typeProperties_url": {
+						"value": "[parameters('github_raw_ls_properties_typeProperties_url')]"
 					}
 				}
 			},

@@ -8,8 +8,14 @@
 		"AzureDataLakeStorage2_accountKey": {
 			"value": ""
 		},
+		"datalake_blog_ls_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"value": "https://avstoragedemo.dfs.core.windows.net"
+		},
+		"github_raw_ls_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
 		}
 	}
 }
