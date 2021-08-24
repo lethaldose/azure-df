@@ -7,7 +7,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "MoviesCSVRead",
+						"referenceName": "moviescsv1",
 						"type": "DatasetReference"
 					},
 					"name": "MoviesDB"
